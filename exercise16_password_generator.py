@@ -10,7 +10,6 @@ import string
 import random 
 
 all_characters = string.ascii_letters + string.digits + string.punctuation
-one_char = random.choice(all_characters)
 length = int(input("How many characters do you want in your password? "))
 password = ""
 for i in range(length):
